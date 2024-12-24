@@ -1,16 +1,12 @@
 import React from 'react';
 
 const Pagination = ({ Page, setPage, Tdata }) => {
-
     const PageInc = () => {
-
         setPage(Page + 1)
-        console.log(Page)
     }
     const PageDec = () => {
         Page > 1 ?
             setPage(Page - 1) : "";
-        console.log(Page)
     }
 
     return (
